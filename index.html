@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--                                                                                                                      -->
+    <title>🌐 r9k.lol 🌐</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/54/94/8c/54948c80bdfb14f1197763f2d635d1c4.jpg">
+    <!--                                                   CSS                                                                -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="main">
+        <p class="Welcome">W3LC0M3</p>
+        <div id="messages"></div>
+        <script>
+            const messages = [
+                "Larp",
+                "YunkoWasHere",
+                "Wifiskeletron so tuff",
+                "Fakecel"
+            ];
+
+            const rndMsg = messages[Math.floor(Math.random() * messages.length)];
+            document.getElementById("messages").textContent = rndMsg;
+        </script>
+    </div>
+</body>
+</html>
