@@ -17,6 +17,34 @@
     position: relative;
     left: 35px;
     text-decoration: none;
+    color: white;
+}
+.box1-text:visited {
+  color: white;
+}
+
+.box2 {
+      width: 300px;
+    height: 260px;
+    background: rgba(78, 78, 78, 0.103);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(8, 1, 133, 1);
+    position: relative;
+    left: 230px;
+    top: -0px;
+    text-decoration: none;
+    display: block;
+}
+
+.box2-text {
+      position: relative;
+    left: 100px;
+    text-decoration: none;
+    color: white;
+    text-decoration-color: (0, 0, 0, rgba(0, 0, 0, 0.1));
 }
 
 /* Mobile */
