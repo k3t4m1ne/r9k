@@ -10,11 +10,13 @@
     position: relative;
     left: 230px;
     top: -80px;
+    text-decoration: none;
 }
 
 .box1-text {
     position: relative;
     left: 35px;
+    text-decoration: none;
 }
 
 /* Mobile */
@@ -40,4 +42,8 @@
     position: static;       
     width: 80%;             
   }
+}
+
+.littlesaintjames {
+    text-decoration: none;
 }
