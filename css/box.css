@@ -87,14 +87,21 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;            
-    width: 100%;
   }
 
   .box1 {
-    position: static;       
-    width: 80%;             
+    position: static;                    
+  }
+
+  .box2 {
+    position: static;
+  }
+
+  .box3 {
+    position: static;
   }
 }
+
 
 .littlesaintjames {
     text-decoration: none;
